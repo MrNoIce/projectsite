@@ -16,15 +16,15 @@ const ContactForm = () => {
     return(
         <form className="contact_form" onSubmit={sendEmail}>
             <div className="form_group">
-                <label htmlFor="name"></label>
+                <label htmlFor="name"> </label>
                 <input type="text" className="form_control" name="from_name" placeHolder="Name"></input>
             </div>
             <div className="form_group">
-                <label htmlFor="email" ></label>
+                <label htmlFor="email" > </label>
                 <input type="text" className="form_control" name="reply_to" placeHolder="Email"></input>
             </div>
             <div className="form_group">
-                <label htmlFor="message" ></label>
+                <label htmlFor="message" > </label>
                 <textarea type="text" className="form_control" rows="2" name="message_html" placeHolder="Message"></textarea>
             </div>
             <button type="submit" className="form_button">Send</button>
