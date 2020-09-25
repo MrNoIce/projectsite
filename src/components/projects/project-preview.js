@@ -1,24 +1,16 @@
 import React from "react"
+import ProjectDisplay from "./project-display"
 
-const ProjectPreview = ({ description, name, url, image }) => (
-    <div>
-        <div>
-            <p>{name}</p>
-        </div>
-        <div>
-            <p>{description}</p>
-        </div>
-        <div>
-            <p>{url}</p>
-        </div>
-        <div>
-            <img alt={name} src={image} />
-        </div>
-        <hr style={{
-          borderbottom: `1px solid #eee`,
-          width: `100%`,
-          margin: `1rem 0`,
-        }}/>
-    </div>
-)
+const ProjectPreview = () => {
+  return (
+    <ProjectDisplay
+      key={name}
+      name={name}
+      description={description}
+      url={url}
+      tech={tech}
+      image={gif}
+    />
+  )
+}
 export default ProjectPreview

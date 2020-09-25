@@ -8,10 +8,10 @@ class Example extends React.Component {
   render() {
     return (
       <Form>
-        <legend>Title</legend>
-        <Input placeholder="Input 1" />
-        <Input placeholder="Input 2" />
-        <Textarea placeholder="Textarea" />
+        <legend>_Send me a message</legend>
+        <Input placeholder="_name" />
+        <Input placeholder="_email" />
+        <Textarea placeholder="_message" />
         <Button variant="raised">Submit</Button>
       </Form>
     );
