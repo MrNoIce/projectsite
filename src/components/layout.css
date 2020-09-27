@@ -40,8 +40,6 @@ template {
   display: none;
 }
 a {
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
 }
 a:active,
 a:hover {
@@ -159,10 +157,15 @@ form {
   color: #0000EE;
   font-size: large;
   margin: 1rem;
+  outline: none;
 }
 .contact-links {
   display: flex;
   padding: .4rem;
+}
+.contact-icon {
+  color: rgb(79, 77, 80);
+  box-shadow: 2, 2, 2, #000;
 }
 optgroup,
 select,

@@ -3,7 +3,7 @@ import React from "react"
 const Resume = () => {
   return (
     <>
-      <h4>JourneyPure - July 2020 -- Current - Admissions Coordinator</h4>
+      <h4>JourneyPure - July 2020 -{">"} Current - Admissions Coordinator</h4>
       <p>
         - Handle new inquiries for admissions to a JourneyPure Outpatient
         Programs
@@ -13,7 +13,7 @@ const Resume = () => {
         <br />- Administrative duties associated with the admission process
       </p>
       <h4>
-        Nashville Software School - May 2019 - November 2019 - Full Stack
+        Nashville Software School - May 2019 -{">"} November 2019 - Full Stack
         Software Developer
       </h4>
       <p>
@@ -40,7 +40,7 @@ const Resume = () => {
         problems
         <br />
       </p>
-      <h4>Murphy’s Motor Works - August 2013 - March 2019 - Owner</h4>
+      <h4>Murphy’s Motor Works - August 2013 -{">"} March 2019 - Owner</h4>
       <p>
         - Built customer relations, Income and expense accounts, managed parts
         and supplies <br />- Acquired an Auto dealers license- bought, listed,
@@ -56,7 +56,7 @@ const Resume = () => {
         for the shop
       </p>
       <h4>
-        Rook Industries - Jan 2012-June 2013 - Product design and fabrication -
+        Rook Industries - Jan 2012 -{">"} June 2013 - Product design and fabrication -
         Co-owner
       </h4>
       <p>
@@ -66,11 +66,16 @@ const Resume = () => {
         media for events and influencers
       </p>
       <h4>Education</h4>
-      <h4>- Nashville Software School - Full Stack Software Engineer</h4>
+      <h4>- Nashville Software School - Full Stack Software Developer</h4>
       <h4>
         - Nashville Auto Diesel College - Automotive Repair and Diesel
         Specialties
       </h4>
+      <hr style={{
+          borderBottom: `1px solid #eee`,
+          width: `100%`,
+          margin: `1rem 0`,
+        }}/>
     </>
   )
 }

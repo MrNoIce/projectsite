@@ -22,7 +22,7 @@ const Contact = () => (
       rel="noreferrer"
       className="contact-links"
     >
-      <Icon size={30} icon={github} />
+      <Icon className="contact-icon" size={30} icon={github} />
     </a>
     <a
       href="https://github.com/MrNoIce"
@@ -30,7 +30,7 @@ const Contact = () => (
       rel="noreferrer"
       className="contact-links"
     >
-      <Icon size={30} icon={twitter} />
+      <Icon className="contact-icon" size={30} icon={twitter} />
     </a>
     <a
       href="mailto:jake.murphy.scott@gmail.com?Subject=Hello%20Jake"
@@ -38,7 +38,7 @@ const Contact = () => (
       rel="noreferrer"
       className="contact-links"
     >
-      <Icon size={30} icon={mail4} />
+      <Icon className="contact-icon" size={30} icon={mail4} />
     </a>
     <a
       href="https://www.linkedin.com/in/jakemurphyscott/"
@@ -46,7 +46,7 @@ const Contact = () => (
       rel="noreferrer"
       className="contact-links"
     >
-      <Icon size={30} icon={linkedin} />
+      <Icon className="contact-icon" size={30} icon={linkedin} />
     </a>
   </div>
 )
