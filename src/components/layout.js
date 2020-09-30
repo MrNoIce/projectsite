@@ -13,6 +13,11 @@ const Layout = ({ children }) => {
           title
         }
       }
+      imageSharp {
+        fluid {
+          src
+        }
+      }
     }
   `)
 
@@ -28,8 +33,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()},
-          {` `}
+          © {new Date().getFullYear()},{` `}
           <p>Jake Scott</p>
         </footer>
       </div>
