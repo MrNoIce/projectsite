@@ -1,13 +1,13 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby" // to query for image data
-import Img from "gatsby-image" // to take image data and render it
+import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 
 const AboutMe = () => {
   const data = useStaticQuery(graphql`
     query {
       file(relativePath: { eq: "images/profile-image.JPG" }) {
         childImageSharp {
-          fluid {
+          fluid(maxWidth: 400, maxHeight: 400) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -21,6 +21,12 @@ const AboutMe = () => {
         fluid={data.file.childImageSharp.fluid}
         alt="My profile image"
         className="about-me-profile-img"
+        style={{
+          height: `auto`,
+          maxHeight: `400px`,
+          width: `auto`,
+          maxWidth: `400px`,
+        }}
       />
       <div className="about-me-text">
         <h4>Hello! I'm Jake</h4>

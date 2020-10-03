@@ -22,7 +22,6 @@ module.exports = {
         name: `Jake-Murphy-Scott`,
         short_name: `starter`,
         start_url: `/`,
-        display: `minimal-ui`,
         icon: `src/data/images/profile-image.JPG`, // This path is relative to the root of the site.
       },
     },
