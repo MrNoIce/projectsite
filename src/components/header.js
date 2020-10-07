@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import Contact from "./contact"
 import PropTypes from "prop-types"
 import React from "react"
+import ResumeDownload from "./resumeLink"
 
 const Header = ({ siteTitle }) => (
   <header

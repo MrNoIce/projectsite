@@ -5,8 +5,8 @@ const ProjectDisplay = ({ description, name, url, tech, gif }) => (
     <div>
       <a href={url} target="_blank" rel="noreferrer">
         {name}
-      </a>
-        {tech}
+      </a>{' '}
+       : {tech}
     </div>
     <div>
       <p>{description}</p>

@@ -1,16 +1,19 @@
 import React from "react"
-import JakeCVDOC from '../data/pdfs/JakeCVDOC.pdf'
-import JakeScottCVweb from '../data/pdfs/JakeScottCVweb.pdf'
-
+import JakeCVDOC from "../data/pdfs/JakeCVDOC.pdf"
+import JakeScottCVweb from "../data/pdfs/JakeScottCVweb.pdf"
 
 const ResumeDownload = () => (
-    <>
-      <a href={JakeCVDOC} target="_blank" rel="noreferrer" >
-        Download text resume
+  <>
+    <p>
+      Pretty resume --{">"}{" "}
+      <a href={JakeScottCVweb} target="_blank" rel="noreferrer">
+        here
       </a><br />
-      <a href={JakeScottCVweb} target="_blank" rel="noreferrer" >
-        Download pretty resume
-      </a>
-    </>
+      Plain pdf --{">"}{" "}
+      <a href={JakeCVDOC} target="_blank" rel="noreferrer">
+        here
+      </a><br />
+    </p>
+  </>
 )
 export default ResumeDownload

@@ -25,7 +25,7 @@ const Contact = () => (
       <Icon className="contact-icon" size={30} icon={github} />
     </a>
     <a
-      href="https://github.com/MrNoIce"
+      href="https://twitter.com/Jake_M_S"
       target="_blank"
       rel="noreferrer"
       className="contact-links"

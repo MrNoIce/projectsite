@@ -56,8 +56,8 @@ const Resume = () => {
         for the shop
       </p>
       <h4>
-        Rook Industries - Jan 2012 -{">"} June 2013 - Product design and fabrication -
-        Co-owner
+        Rook Industries - Jan 2012 -{">"} June 2013 - Product design and
+        fabrication - Co-owner
       </h4>
       <p>
         - Obtained a patent-pending license for a product I designed <br />-
@@ -71,11 +71,13 @@ const Resume = () => {
         - Nashville Auto Diesel College - Automotive Repair and Diesel
         Specialties
       </h4>
-      <hr style={{
+      <hr
+        style={{
           borderBottom: `1px solid #eee`,
           width: `100%`,
           margin: `1rem 0`,
-        }}/>
+        }}
+      />
     </>
   )
 }

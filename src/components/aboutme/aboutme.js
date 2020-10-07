@@ -29,14 +29,14 @@ const AboutMe = () => {
         }}
       />
       <div className="about-me-text">
-        <h4>Hello! I'm Jake</h4>
         <p>
-          I am a mix of creative and analytical. I aspire to be part of the
-          industry where this duality co-exists. As an entrepreneur, I was able
-          to explore my creativity and pore over details and strategy, but the
-          small scale auto repair industry left me wanting more. As a software
-          developer, I am now able to bring my analytical and creative mindset
-          together in a harmonious way.
+          Hi! I’m Jake, from Nashville, TN. I am a curious person who enjoys
+          figuring out the building blocks of the world, and rearranging them to
+          build something even better. My life is developing software, close friendships, and
+          adventuring. Currently I am building small applications in my spare
+          time while on the hunt for my first software position. In my other
+          spare time I am an avid reader, lover of all true-crime documentaries,
+          and dharma meditation talks.
         </p>
       </div>
     </div>
