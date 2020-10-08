@@ -4,7 +4,7 @@
   "description": "A small introduction into my life as a developer",
   "version": "0.1.0",
   "author": "Jake Scott",
-  "homepage": "https://github.com/MrNoIce/projectsite",
+  "homepage": "http://MrNoIce.github.io/projectsite",
   "dependencies": {
     "emailjs-com": "^2.6.3",
     "gatsby": "^2.24.50",
