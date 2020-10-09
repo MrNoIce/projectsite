@@ -38,7 +38,7 @@ const ProjectCard = () => {
 
   return (
       <div className="project-card">
-        <h3 style={{ textAlign: `center` }}>Portfolio</h3>
+        <h3>Portfolio</h3>
 
           {data.map(({ node: project }) => {
             const name = project.name

@@ -3,7 +3,7 @@ import React from "react"
 const Resume = () => {
   return (
     <>
-    <h3 style={{ textAlign: `center` }}>Resume</h3>
+    <h3>Resume</h3>
       <h4>JourneyPure - July 2020 -{">"} Current - Admissions Coordinator</h4>
       <p>
         - Handle new inquiries for admissions to a JourneyPure Outpatient
@@ -66,7 +66,7 @@ const Resume = () => {
         AutoCad and SolidWorks for design <br /> - Promoted business via social
         media for events and influencers
       </p>
-      <h4>Education</h4>
+      <h3>Education</h3>
       <h4>- Nashville Software School - Full Stack Software Developer</h4>
       <h4>
         - Nashville Auto Diesel College - Automotive Repair and Diesel

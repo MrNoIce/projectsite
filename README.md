@@ -1,1 +1,1 @@
-This is my personal profile site meant to display my projects in a simple way.
+This is my personal profile site meant to display my projects in a clean and simple way.
