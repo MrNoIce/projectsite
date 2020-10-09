@@ -3,6 +3,7 @@ import React from "react"
 const Resume = () => {
   return (
     <>
+    <h3 style={{ textAlign: `center` }}>Resume</h3>
       <h4>JourneyPure - July 2020 -{">"} Current - Admissions Coordinator</h4>
       <p>
         - Handle new inquiries for admissions to a JourneyPure Outpatient

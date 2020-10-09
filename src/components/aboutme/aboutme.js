@@ -32,11 +32,11 @@ const AboutMe = () => {
         <p>
           Hi! I’m Jake, from Nashville, TN. I am a curious person who enjoys
           figuring out the building blocks of the world, and rearranging them to
-          build something even better. My life is developing software, close friendships, and
-          adventuring. Currently I am building small applications in my spare
-          time while on the hunt for my first software position. In my other
-          spare time I am an avid reader, lover of all true-crime documentaries,
-          and dharma meditation talks.
+          build something even better. My life is developing software, close
+          friendships, and adventuring. Currently I am building small
+          applications in my spare time while on the hunt for my first software
+          position. I am also an avid reader, lover of all true-crime
+          documentaries, and dharma meditation talks.
         </p>
       </div>
     </div>

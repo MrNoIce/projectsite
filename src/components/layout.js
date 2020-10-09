@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          <ResumeDownload style={{ padding: `3`}}/> <br />
+          <ResumeDownload /> <br />
           © {new Date().getFullYear()},{` `}
           <p>Jake Scott</p>
         </footer>
