@@ -6,7 +6,7 @@
       "image": "./images/profile-image.JPG",
       "gif": "./gifs/autosearch.gif",
       "url": "https://github.com/MrNoIce/Auto-Search-App",
-      "tech": [" Python ", "Django ", "Templates ", "REST API ", "Bootstrap"]
+      "tech": [" Python, ", "Django ", "Templates, ", "REST API, ", "Bootstrap"]
     },
     {
       "name": "OurCity",
@@ -14,7 +14,7 @@
       "image": "./images/profile-image.JPG",
       "gif": "./gifs/autosearch.gif",
       "url": "https://github.com/MrNoIce/Front-End-Capstone",
-      "tech": [" React ", "MapBox ", "JSON ", "Bootstrap"]
+      "tech": [" React, ", "MapBox, ", "JSON, ", "Bootstrap"]
     },
     {
       "name": "Profile",
@@ -22,6 +22,14 @@
       "image": "./images/profile-image.JPG",
       "gif": "./gifs/autosearch.gif",
       "url": "https://github.com/MrNoIce/projectsite",
-      "tech": [" Gatsby ", "React ", "GraphQl " ]
+      "tech": [" Gatsby, ", "React, ", "GraphQl " ]
+    },
+    {
+      "name": "1972 Mercedes 250",
+      "description": "I wanted a fun, cruiser sedan with a little power. I always had an eye for the W114 Mercedes chassis and when one came up for sale, I scooped it up once the owner dropped the price. The owner before him put in a carbureted chevy small block 305 which was terribly under powered, so naturally, that had to go. I decided to go with the classic aluminum LS6 series chevy engine due to its cheap and easy power output. The build was pretty straightforward - simple boltons, a cam, fresh heads, and a tune would bring the power of the car right to 420 horsepower. I had few initial hiccups due to some fitment issues with the swap; the steering linkage and gear box location. I was able to modify the steering link to get the clearance I needed, notched the frame and inch on both sides to fit the headers, along with rerouting the exhaust to fit around the gear box. The fuel pump was originally a mechanical fuel pump operated by the engine however, I needed to supply the new engine with a constant feed of fuel from the old tank. This was executed through a returnless system with an external fuel pump operated by the computer. Overall I had a blast with the build and am looking forward to my next project. ",
+      "image": "./images/profile-image.JPG",
+      "gif": "./gifs/autosearch.gif",
+      "url": "https://youtu.be/19YgtSZUFa0",
+      "tech": ["Engine building, tuning, and swapping : ", "Welding and Fabrication : ", " Wiring"]
     }
 ]
