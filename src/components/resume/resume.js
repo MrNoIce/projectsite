@@ -9,10 +9,10 @@ const Resume = () => {
       <p>
         - Handle new inquiries for admissions to a JourneyPure Outpatient
         Programs
+        <br />- Maintained admission guidelines by writing, updating, and recommending changes to admission criteria, policies and procedures.
         <br />
         - Operational and administrative duties necessary to complete each
         admission
-        <br />- Maintained admission guidelines by writing, updating, and recommending changes to admission criteria, policies and procedures.
       </p>
       <h4>Nashville Software School</h4>
         <h5> May 2019 : November 2019 | Full Stack

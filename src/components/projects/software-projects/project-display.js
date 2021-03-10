@@ -31,6 +31,7 @@ const ProjectDisplay = ({ description, name, url, tech, gif }) => (
       </a>{' '}
        : {tech}
     </div>
+    <br />
     <div>
       <ShowMore description={description}/>
       <p></p>
