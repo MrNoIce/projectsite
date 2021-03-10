@@ -34,8 +34,6 @@ const ProjectCard = () => {
   `)
   const data = dataJson.allDataJson.edges
 
-  console.log(data, "data")
-
   return (
       <div className="project-card">
         <h3>Portfolio</h3>

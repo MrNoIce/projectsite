@@ -17,14 +17,6 @@ class ContactForm extends Component {
         e.target,
         "user_kf5tCn32h6RcPBUNDdmal"
       )
-      .then(
-        result => {
-          console.log(result.text)
-        },
-        error => {
-          console.log(error.text)
-        }
-      )
     this.formValidation()
     this.resetForm()
   }
@@ -57,7 +49,7 @@ class ContactForm extends Component {
               name="from_name"
               value={this.state.name}
               onChange={this.handleChange.bind(this, "name")}
-              placeHolder="Name"
+              placeholder="Name"
             ></input>
           </div>
           <div className="form_group">
@@ -68,7 +60,7 @@ class ContactForm extends Component {
               name="reply_to"
               value={this.state.email}
               onChange={this.handleChange.bind(this, "email")}
-              placeHolder="Email"
+              placeholder="Email"
             ></input>
           </div>
           <div className="form_group">
@@ -80,7 +72,7 @@ class ContactForm extends Component {
               name="message_html"
               value={this.state.message}
               onChange={this.handleChange.bind(this, "message")}
-              placeHolder="Message"
+              placeholder="Message"
             ></textarea>
           </div>
           <button type="submit" className="form_button">
